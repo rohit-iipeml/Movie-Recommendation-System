@@ -9,7 +9,7 @@ Original file is located at
 
 import pandas as pd
 
-df = pd.read_csv("/content/drive/MyDrive/Lumaa/wiki_movie_plots_deduped.csv")
+df = pd.read_csv("wiki_movie_plots_deduped.csv")
 df = df[['Title', 'Plot']]
 df.dropna(inplace=True)
 df.head()
