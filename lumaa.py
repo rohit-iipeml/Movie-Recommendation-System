@@ -58,6 +58,7 @@ df_sample['Cleaned_Plot'] = df_sample['Plot'].apply(preprocess_text)
 df_sample
 
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 
 vectorizer = TfidfVectorizer(stop_words='english')
 tfidf_matrix = vectorizer.fit_transform(df_sample['Cleaned_Plot'])
