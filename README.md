@@ -13,19 +13,14 @@ Recommended Version: Python 3.8+
 Install from python.org
 2. Install Dependencies
 Run the following command to install the required Python libraries:
+**pip install -r requirements.txt**
 
-pip install -r requirements.txt
-3. (Optional) Create a Virtual Environment
-For better dependency management:
-
-python -m venv env
-source env/bin/activate  # Windows: env\Scripts\activate
-pip install -r requirements.txt
 🚀 Running the Recommendation System
 
 Run the script from the command line:
 
 python lumaa.py "I love thrilling action movies set in space, with a comedic twist."
+
 📊 Example Output
 
 Top Recommended Movies:
